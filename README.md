@@ -1,2 +1,3 @@
 # Rock-Paper-Scissors
-Simple rock, paper, scissors application made with HTML, CSS and Javascript!
+## Game logic
+This branch is focusing on making the game work on the website with use of Javascript and the DOM. 
