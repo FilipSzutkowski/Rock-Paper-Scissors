@@ -105,7 +105,7 @@ function displayScore() {
 //The match's result, and the result of the last game.
 function displayResult(result) {
     resultParagraph.textContent = result;
-    lastScoreParagraph.textContent = 'The score was: ' + 'you: ' + win + ', drafts: ' + draft + ', me: ' + loss;
+    lastScoreParagraph.textContent = 'The score was: ' + 'you: ' + win + ', drafts: ' + draft + ', the computer: ' + loss;
 }
 
 //Generating a pseudo-random choice of the computer. 
