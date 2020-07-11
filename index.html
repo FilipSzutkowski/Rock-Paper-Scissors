@@ -11,27 +11,29 @@
     <h1>Rock, Paper or Scissors?!</h1>
 
     <section>
-        <p>You against me. 5 rounds.</p>
+        <p>You against the computer. 5 rounds.</p>
         <p>Choose your <b>weapon:</b></p>
     </section>
 
     <section>
-        <span aria-label="rock">✊</span>
-        <span aria-label="paper">🤚</span>
-        <span aria-label="scissors">✌️</span>
+        <span aria-label="rock" class="rock">✊</span>
+        <span aria-label="paper" class="paper">🤚</span>
+        <span aria-label="scissors" class="scissors">✌️</span>
     </section>
 
     <section>
-        <p>My weapon is:</p>
-        <p class="computerWeapon">SCISSORS</p>
+        <p>Computer's choice was:</p>
+        <p class="computerWeapon"></p>
     </section>
     
     <section>
-        <span>Your score: <b class="userScore"> 1</b></span>
-        <span>My score: <b class="computerScore"> 2</b> </span>
+        <span>Your score: <b class="userScore"></b></span>
+        <span>Drafts: <b class="draftScore"></b></span>
+        <span>Computer's score: <b class="computerScore"></b> </span>
     </section>
 
-    <p class="result">You win</p>
+    <p class="resultParagraph"></p>
+    <p class="lastScoreParagraph"></p>
 
     <script src="app.js"></script>
 </body>
